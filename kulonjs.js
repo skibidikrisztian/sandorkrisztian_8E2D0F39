@@ -32,7 +32,7 @@ function megnyit(url) {
   window.location.href = url;
 }
 
-function addold() { //az egesz watchlist resze ai nem tudtam hogy csinaljam meg
+function addold() {
   const input = document.getElementById("ujFilm");
   const lista = document.getElementById("watchList");
 
