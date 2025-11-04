@@ -1,9 +1,34 @@
 const topFilmek = [
-  { cim: "Interstellar", leiras: "Az Interstellar egy felfedezőcsoport kalandjait meséli el...", kep: "interstellar_poster.jpg", link: "https://hdtodayz.to/movie/watch-interstellar-hd-19788" },
-  { cim: "Whiplash", leiras: "Egy könyörtelen oktató irányítása alatt...", kep: "whiplash_poster.jpg", link: "https://hdtodayz.to/movie/watch-whiplash-hd-19644" },
-  { cim: "Beef", leiras: "Két ember hagyta, hogy egy közúti baleset berögzüljön...", kep: "beef_poster.jpg", link: "https://hdtodayz.to/tv/watch-beef-hd-94993" },
-  { cim: "The Batman", leiras: "Egy nézőpontvezérelt noir történet...", kep: "thebatman_poster.jpg", link: "https://hdtodayz.to/movie/watch-the-batman-hd-16076" },
-  { cim: "Bojack Horseman", leiras: "Ismerd meg a 90-es évek legkedveltebb sitcom lovát...", kep: "bojackhorseman_poster.jpg", link: "https://hdtodayz.to/tv/watch-bojack-horseman-hd-39035" }
+  { 
+    cim: "Interstellar", 
+    leiras: "Az Interstellar egy felfedezőcsoport kalandjait meséli el, akik egy újonnan felfedezett féreglyukat használnak, hogy túllépjenek az emberes űrutazás korlátain, és meghódítsák a csillagközi utazás során felmerülő hatalmas távolságokat.", 
+    kep: "interstellar_poster.jpg", 
+    link: "https://hdtodayz.to/movie/watch-interstellar-hd-19788" 
+  },
+  { 
+    cim: "Whiplash", 
+    leiras: "Egy könyörtelen oktató irányítása alatt egy tehetséges fiatal dobos bármi áron a tökéletességre törekszik, még emberiségére is.", 
+    kep: "whiplash_poster.jpg", 
+    link: "https://hdtodayz.to/movie/watch-whiplash-hd-19644" 
+  },
+  { 
+    cim: "Beef", 
+    leiras: "Két ember hagyta, hogy egy közúti baleset berögzüljön az elméjükben, és lassan felemésztse minden gondolatukat és tettüket.", 
+    kep: "beef_poster.jpg", 
+    link: "https://hdtodayz.to/tv/watch-beef-hd-94993" 
+  },
+  { 
+    cim: "The Batman", 
+    leiras: "Egy nézőpontvezérelt noir történet, melyben nagy hangsúlyt fektetnek Batman nyomozómunkájára. Önálló történet, aminek semmi köze a DCEU-hoz.", 
+    kep: "thebatman_poster.jpg", 
+    link: "https://hdtodayz.to/movie/watch-the-batman-hd-16076" 
+  },
+  { 
+    cim: "Bojack Horseman", 
+    leiras: "Ismerd meg a 90-es évek legkedveltebb sitcom lovát – 20 évvel később. BoJack Horseman a nagy sikerű Horsin' Around tévésorozat sztárja volt, de ma már elveszett, Hollywoodban él, mindenre panaszkodik, és színes pulóvereket hord.", 
+    kep: "bojackhorseman_poster.jpg", 
+    link: "https://hdtodayz.to/tv/watch-bojack-horseman-hd-39035" 
+  }
 ];
 
 function megjelenitFilmek() {
